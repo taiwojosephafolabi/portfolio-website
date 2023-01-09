@@ -310,7 +310,7 @@ h1 a:active{
 }
 
 .image_gallery{
-    width:100%;
+    width: auto;
     max-width: 95%;
     margin: 0 auto;
     padding: 50px 20px;
@@ -367,7 +367,7 @@ h1 a:active{
 }
 
 .image_gallery .image_box .details{
-text-align: center;
+    text-align: center;
 }
 
 .image_gallery .image_box .details .title{
@@ -423,12 +423,6 @@ text-align: center;
         grid-row: unset;
     }
 }
-
-
-
-
-
-
 
 .image_gallery .video_box{
     position: relative;
@@ -649,12 +643,6 @@ text-align: center;
     }
 }
 
-
-
-
-
-
-
 .image_gallery2 .video_box{
     position: relative;
     background-color: #d7d7d8;
@@ -783,6 +771,7 @@ i{
 .icon_text a{
     display: flex;
     flex-direction: row;
+    justify-content: center;
     align-items: center;
 }
 
@@ -808,6 +797,10 @@ i{
     font-family: "Norwester";
     text-decoration: none;
     color: #222222;
+}
+
+footer{
+    align-items: flex-end;
 }
 
 .footer_style{
