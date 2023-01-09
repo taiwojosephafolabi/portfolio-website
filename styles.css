@@ -11,7 +11,8 @@ body {
     background-color: #000000;
     color: #d7d7d8;
     font-family: 'Norwester', sans-serif;
-    margin-top: 120px;
+    margin-top: 150px;
+    max-width: auto; /* Doesn't do anything */
 }
 
 .nav_bar{
@@ -21,7 +22,7 @@ body {
     flex-wrap: nowrap;
     flex-direction: row;
     justify-content: space-between;
-    padding: 15px;
+    padding: 0px;
     align-items: center;
     margin: auto 20px;
     overflow: hidden;
@@ -30,6 +31,8 @@ body {
     width: 100%;
     transition: top 0.3s;
     background-color: black;
+    float: center;
+
 }
 
 .nav_bar .nav_links{
