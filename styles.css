@@ -104,6 +104,20 @@ body {
     border-bottom: none;
 }
 
+/* Trying out responsive nav bar design */
+@media only screen and (max-width: 700px){
+  .nav_bar {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 500px){
+  .nav_bar {
+    width: 100%;
+  }
+}
+/*  */
+
 .header_style{
     font-family: "Norwester";
     display: flex;
