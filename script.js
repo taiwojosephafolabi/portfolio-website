@@ -1,4 +1,5 @@
 "use strict";
+
 document.addEventListener("scroll", function () {
   const nav_bar = document.querySelector(".nav_bar");
   const navbarHeight = 100;
