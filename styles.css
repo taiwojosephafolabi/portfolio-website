@@ -32,6 +32,9 @@ body {
   background-color: black;
   float: center;
 }
+.nav_bar .logo{
+  margin: 15px;
+}
 
 .nav_bar .nav_links {
   list-style: none;
@@ -39,7 +42,7 @@ body {
   flex-wrap: nowrap;
   flex-direction: row;
   justify-content: space-around;
-  gap: 5px;
+  gap: 0px;
   align-items: center;
   flex-grow: 2;
 }
@@ -51,7 +54,7 @@ body {
 
 .nav_bar ul li {
   width: auto;
-  margin: 15px;
+  margin: 15px 15px 0px 15px;
   padding: 15px;
 }
 
@@ -231,7 +234,7 @@ form button:active {
 
 h1 {
   color: #a6a6a6;
-  font-size: 75px;
+  font-size: 50px;
   margin: 20px 20px 20px;
 }
 
