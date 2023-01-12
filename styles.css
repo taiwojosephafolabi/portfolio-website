@@ -32,6 +32,7 @@ body {
   background-color: black;
   float: center;
 }
+
 .nav_bar .logo{
   margin: 15px;
 }
@@ -42,7 +43,7 @@ body {
   flex-wrap: nowrap;
   flex-direction: row;
   justify-content: space-around;
-  gap: 0px;
+  gap: 5px;
   align-items: center;
   flex-grow: 2;
 }
@@ -76,7 +77,6 @@ body {
   }
 }
 /*  */
-
 .active,
 ul li:hover {
   background: #464646;
@@ -234,7 +234,7 @@ form button:active {
 
 h1 {
   color: #a6a6a6;
-  font-size: 50px;
+  font-size: 75px;
   margin: 20px 20px 20px;
 }
 
