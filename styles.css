@@ -5,7 +5,7 @@
 
 body {
     
-    background-color: #000000;
+    background-color: #101014;
     color: #d7d7d8;
     font-family: 'Norwester', sans-serif;
     position: relative;
@@ -13,8 +13,8 @@ body {
     margin-top: 100px;
 }
 
-.nav_bar{
-    background-color: rgb(0, 0, 0);
+.nav_bar {
+    background-color: #101014;
     opacity: 0.8;
     position: fixed;
     top: 0;
@@ -54,7 +54,7 @@ body {
 
 .nav_bar .nav_links a{
     text-decoration: none;
-    color: white;
+    color: #e1e1e5;
 }
 
 .active, ul li:hover {
@@ -66,7 +66,7 @@ body {
 
 .sub_menu_1{
     display: none;
-    color: white;
+    color: #e1e1e5;
 }
 
 .nav_bar ul li:hover .sub_menu_1{
@@ -87,14 +87,14 @@ body {
 .nav_bar ul li:hover .sub_menu_1 ul li{
     width: auto;
     padding: 5px;
-    border-bottom: 1px dotted white;
+    border-bottom: 1px dotted #e1e1e5;
     background: transparent;
     border-radius: 0;
     text-align: left;
 }
 
 .nav_bar ul li:hover .sub_menu_1 ul li a:hover{
-    color: black;
+    color: #101014;
 }
 
 .nav_bar ul li:hover .sub_menu_1 ul li:last-child{
@@ -147,7 +147,7 @@ header{
 }
 
 .content h1{
-    color: white;
+    color: #e1e1e5;
 }
 
 .content h2{
@@ -156,7 +156,7 @@ header{
 
 .content h5{
     width: auto;
-    color: white;
+    color: #e1e1e5;
 }
 
 #contact_content{
@@ -219,7 +219,7 @@ form button:visited{
 form button:hover{
     text-decoration: none;
     background:#464646;
-    color: white;
+    color: #e1e1e5;
 }
 
 form button:active{
@@ -256,7 +256,7 @@ h5{
 
 .profile_image{
     justify-content: right;
-    box-shadow: 0px 0px 5px #000000, 0px 0px 50px #a6a6a6;
+    box-shadow: 0px 0px 5px #101014, 0px 0px 50px #a6a6a6;
     border-radius: none;
 }
 
@@ -277,7 +277,7 @@ button{
 
 button:hover{
     background-color:#464646;
-    color:white;
+    color:#e1e1e5;
 }
 
 button a:link{
@@ -290,7 +290,7 @@ button a:visited{
 }
 button a:hover{
     text-decoration: none;
-    color:white;
+    color: #e1e1e5;
 }
 button a:active{
     text-decoration: none;
@@ -316,12 +316,12 @@ button a:active{
 
 .gallery_heading a:visited{
     text-decoration: none;
-    color:white;
+    color:#e1e1e5;
 }
 
 .gallery_heading a:hover{
     text-decoration: none;
-    color:black;
+    color:#101014;
 }
 
 .gallery_heading a:active{
@@ -781,7 +781,7 @@ i{
     flex-direction: row;
     margin: 0px 20px;
     margin-top: 5px;
-    color: white;
+    color: #e1e1e5;
     list-style: none;
     justify-content: center;
     gap: 5px 5px;
@@ -803,7 +803,7 @@ i{
 .icon_text a:visited{
     font-family: "Norwester";
     text-decoration: none;
-    color:white;
+    color:#e1e1e5;
 }
 
 .icon_text a:hover{
