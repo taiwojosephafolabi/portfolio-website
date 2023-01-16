@@ -4,7 +4,6 @@
 }
 
 body {
-    
     background-color: #101014;
     color: #d7d7d8;
     font-family: 'Norwester', sans-serif;
@@ -54,14 +53,13 @@ body {
 
 .nav_bar .nav_links a{
     text-decoration: none;
-    color: #e1e1e5;
+    color: white;
 }
 
 .active, ul li:hover {
     background: #464646;
     border-radius: 3px;
     width: auto;
-
 }
 
 .sub_menu_1{
@@ -147,11 +145,15 @@ header{
 }
 
 .content h1{
-    color: #e1e1e5;
+    color: #a6a6a6;
 }
 
 .content h2{
     margin-bottom: 5px;
+}
+
+.content h4{
+  color: #e1e1e5;
 }
 
 .content h5{
